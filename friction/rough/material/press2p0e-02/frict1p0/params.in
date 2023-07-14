@@ -1,0 +1,119 @@
+0	# compiled 2023-03-07 12:30
+2		# lengthX #
+2048		# nxGlobal #
+
+0		# nRelax #
+20000		# nTime #
+0.05		# dTime #
+
+1.5		# dampGlobal #
+4711		# randSeed #
+
+500		# frameInterval #
+2		# nSheet #
+1		# nInter #
+0		# nAtomL #
+
+0		# end global parameters 
+
+0	# sheet start
+2		# fTopoAdd #
+0.8		# hurst #
+1		# lambdaR #
+0.0078125		# lambdaS #
+2		# fRoughNorm #
+0.01		# rRoughNorm #
+0		# fRollOff #
+1		# fLateral #
+400		# vX #
+0	# sheet end
+
+1	# sheet start
+3		# nElast #
+0.5		# stiffness0 #
+0.25		# poisson0 #
+1		# fMassWeightg #
+1		# zeroModeMass #
+0.02		# pressInit #
+1	# sheet end
+
+0	# inter start
+0		# sheetID0 #
+1		# sheetID1 #
+1		# fPotential #
+0.0001		# surfEnerg #
+0.9		# potCurveRel #
+1		# frictionCoeff #
+2		# frictRelax #
+1		# relFrictPeak #
+0		# velFrictThresh #
+0		# fDumpGap #
+1		# fDumpLateral #
+0	# inter end
+
+0	# sheet [self-affine] roughness info start
+0.01		# rms real-space height
+0.01 0.0658367	# rms and max height (Fourier)
+0.195481  0.195481	# x and y rms slope
+59.7611  59.7611		# x and y rms curve
+0.276452	0.0167333	# rms grad and radOfCurv
+0	# sheet [self-affine] roughness info end
+
+1	# sheet elasticity info start
+0.1		# total force
+1.5708		# stiffMin
+2274.76		# stiffMax
+1.76715		# stressZZPre[1]
+2559.1		# stressZZPre[kFastest]
+1.76715		# stressYYPre[1]
+2132.58		# stressYYPre[kFastest]
+0.589049		# ImStressYZPre[1]
+603.186		# ImStressYZPre[kFastest]
+1.1781		# stressXXPre[1]
+2132.58		# stressXXPre[kFastest]
+0		# stressXYPre[1]
+426.517		# stressXYPre[kFastest]
+0		# ImStressXZPre[1]
+603.186		# ImStressXZPre[kFastest]
+1.5708		# massCOM
+2559.1		# massFast
+1.5		# damping
+1	# sheet elasticity info end
+
+0	# inter info start
+1		# frictionCoeff #
+2		# frictRelax #
+0	# rmsFullContactStress
+0.00156949	# fullContactElastEnergy
+0	# inter info end
+
+83.2861	# absolute computing time (min)
+83.2825	# measured computing time (min)
+
+0 	# relative computing times:
+0.488		# tPropagate
+0.501		# tGetForces
+0.000		# tConstrain
+0.011		# tMeasure
+0	# relative computing times:
+
+1		# sheet measure start
+0.00165022		# vElastic
+-0.0041056		# vGravit
+0.000412556		# vElastic/areaXY
+-0.0010264		# vGravit/areaXY
+1.18378e-05	2.8869e-09	# tKinetic1, tKinetic2
+0.0277227		# zConstCOM #
+1		# sheet measure end
+
+0	# inter measure start
+4.47011e-06		# vPotTot
+1.11753e-06		# vPotTot/areaX
+0.00401672		# mean gap
+0.00402893		# mean positive gap
+0.00404114		# estimated converged gap
+0.193684		# relative contact area
+0.774734		# absolute contact area
+0	# inter measure end
+
+1		# D O N E

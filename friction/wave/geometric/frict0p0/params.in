@@ -1,0 +1,85 @@
+1		# lengthX #
+1024		# nxGlobal #
+
+0		# nRelax #
+1000		# nTime #
+0.15		# dTime #
+
+1.5		# dampGlobal #
+4711		# randSeed #
+
+2		# nSheet #
+1		# nInter #
+0		# nAtomL #
+
+0		# end global parameters 
+
+0	# sheet start
+4		# fRoughAdd #
+3		# fAddSWR #
+1		# nqxAddSWR #
+0.0253303		# heightSWR #
+0	# sheet end
+
+1	# sheet start
+1		# nElast #
+0.25375		# pressInit #
+0.5		# stiffness0 #
+2		# fThickness0 #
+0.49		# poisson0 #
+0.1		# thickness0 #
+1		# fMassWeightg #
+1		# zeroModeMass #
+1	# sheet end
+
+0	# inter start
+0		# sheetID0 #
+1		# sheetID1 #
+1		# fPotential #
+0.0001		# surfEnerg #
+0.9		# potCurveRel #
+0.5		# potCurveRelSho #
+0	# inter end
+
+1	# sheet elasticity info start
+0.24		# total force
+3.14159		# stiffMin
+284.345		# stiffMax
+28.3008		# stressZFPre[1]
+284.345		# stressZFPre[kFastest]
+130.088		# massCOM
+284.362		# massFast
+1.5		# damping
+130.05		# stressZFPre[0]
+1	# sheet elasticity info end
+
+0	# inter info start
+0	# rmsFullContactStress
+0.00907923	# fullContactElastEnergy
+0	# inter info end
+
+0.0193158	# absolute computing time (min)
+0.0189795	# measured computing time (min)
+
+0 	# relative computing times:
+0.422		# tPropagate
+0.535		# tGetForces
+0.002		# tConstrain
+0.042		# tMeasure
+0	# relative computing times:
+
+1		# sheet measure start
+0.00212263		# vElastic
+-0.00972707		# vGravit
+0.0405295		# zConstCOM #
+1		# sheet measure end
+
+0	# inter measure start
+0.000327945		# vPotTot
+0.0101311		# mean gap
+0.011069		# mean positive gap
+0.0120068		# estimated converged gap
+0.516785		# relative contact area
+0	# inter measure end
+
+1		# D O N E

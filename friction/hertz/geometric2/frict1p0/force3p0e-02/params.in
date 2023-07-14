@@ -1,0 +1,84 @@
+0	# compiled 2023-03-07 12:30
+4		# lengthX #
+2048		# nxGlobal #
+
+0		# nRelax #
+85000		# nTime #
+0.1		# dTime #
+
+1.4		# dampGlobal #
+4711		# randSeed #
+
+500		# frameInterval #
+1		# nSheet #
+0		# nInter #
+0		# nAtomL #
+
+0		# end global parameters 
+
+0	# sheet start
+3		# nElast #
+0.5		# stiffness0 #
+2		# fThickness0 #
+0.49		# poisson0 #
+0.2		# thickness0 #
+1		# fMassWeightg #
+0.2		# zeroModeMass #
+0.03		# forceInit #
+4		# fOnSitePotential #
+0		# fOnSitePeriod #
+0		# xOnSite #
+0		# yOnSite #
+1		# rXhertz #
+1		# rYhertz #
+320		# vXOnSite #
+0		# vYOnSite #
+1		# frictionCoeffOS #
+0		# surfEnergOS #
+0.9		# potCurveRelOS #
+2		# frictRelax #
+0	# sheet end
+
+0	# sheet elasticity info start
+0.03		# total force
+0.785398		# stiffMin
+1137.38		# stiffMax
+46.6413		# stressZZPre[1]
+1137.82		# stressZZPre[kFastest]
+2.42719		# stressYYPre[1]
+858.939		# stressYYPre[kFastest]
+-6.66261		# ImStressYZPre[1]
+15.7756		# ImStressYZPre[kFastest]
+1.31667		# stressXXPre[1]
+858.939		# stressXXPre[kFastest]
+0		# stressXYPre[1]
+278.876		# stressXYPre[kFastest]
+-0		# ImStressXZPre[1]
+15.7756		# ImStressXZPre[kFastest]
+65.0252		# massCOM
+1137.82		# massFast
+1.4		# damping
+65.025		# stressZZPre[0]
+0	# sheet elasticity info end
+
+2619.51	# absolute computing time (min)
+2619.41	# measured computing time (min)
+
+0 	# relative computing times:
+0.347		# tPropagate
+0.653		# tGetForces
+0.000		# tConstrain
+0.000		# tMeasure
+0	# relative computing times:
+
+0		# sheet measure start
+0.00138672		# vElastic
+2.7456e-06		# vOnSitePot
+-0.00101488		# vGravit
+8.66701e-05		# vElastic/areaXY
+1.716e-07		# vOnSitePot/areaXY
+-6.34303e-05		# vGravit/areaXY
+0.03236		# zConstCOM #
+0		# sheet measure end
+
+1		# D O N E
