@@ -1,0 +1,229 @@
+
+--------------------------------------------------------------------------------
+
+demo_mpi.cpp:1051:7: error: no matching function for call to 'HYPRE_StructGridSetExtents'
+      HYPRE_StructGridSetExtents(grid, ilower, iupper);
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/hypre/2.26.0/include/_hypre_struct_mv.h:1498:11: note: candidate function not viable: no known conversion from 'int[2]' to 'HYPRE_Int *' (aka 'long long *') for 2nd argument
+HYPRE_Int HYPRE_StructGridSetExtents ( HYPRE_StructGrid grid, HYPRE_Int *ilower,
+          ^
+
+--------------------------------------------------------------------------------
+
+demo_mpi.cpp:1055:7: error: no matching function for call to 'HYPRE_StructGridSetPeriodic'
+      HYPRE_StructGridSetPeriodic (grid, periodic); 
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/hypre/2.26.0/include/_hypre_struct_mv.h:1500:11: note: candidate function not viable: no known conversion from 'int[2]' to 'HYPRE_Int *' (aka 'long long *') for 2nd argument
+HYPRE_Int HYPRE_StructGridSetPeriodic ( HYPRE_StructGrid grid, HYPRE_Int *periodic );
+          ^
+
+--------------------------------------------------------------------------------
+
+demo_mpi.cpp:1071:7: error: no matching function for call to 'HYPRE_StructStencilSetElement'
+      HYPRE_StructStencilSetElement(stencil, i, offsets[i]);
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/hypre/2.26.0/include/_hypre_struct_mv.h:1542:11: note: candidate function not viable: no known conversion from 'int[2]' to 'HYPRE_Int *' (aka 'long long *') for 3rd argument
+HYPRE_Int HYPRE_StructStencilSetElement ( HYPRE_StructStencil stencil, HYPRE_Int element_index,
+          ^
+
+--------------------------------------------------------------------------------
+
+demo_mpi.cpp:1088:7: error: no matching function for call to 'HYPRE_StructVectorSetBoxValues'
+      HYPRE_StructVectorSetBoxValues(b, ilower, iupper, values);
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/hypre/2.26.0/include/_hypre_struct_mv.h:1553:11: note: candidate function not viable: no known conversion from 'int[2]' to 'HYPRE_Int *' (aka 'long long *') for 2nd argument
+HYPRE_Int HYPRE_StructVectorSetBoxValues ( HYPRE_StructVector vector, HYPRE_Int *ilower,
+          ^
+
+--------------------------------------------------------------------------------
+
+demo_mpi.cpp:1237:7: error: no matching function for call to 'HYPRE_StructVectorSetBoxValues'
+      HYPRE_StructVectorSetBoxValues(x, ilower, iupper, values);
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/hypre/2.26.0/include/_hypre_struct_mv.h:1553:11: note: candidate function not viable: no known conversion from 'int[2]' to 'HYPRE_Int *' (aka 'long long *') for 2nd argument
+HYPRE_Int HYPRE_StructVectorSetBoxValues ( HYPRE_StructVector vector, HYPRE_Int *ilower,
+          ^
+
+--------------------------------------------------------------------------------
+
+demo_mpi.cpp:1295:7: error: no matching function for call to 'HYPRE_StructMatrixSetBoxValues'
+      HYPRE_StructMatrixSetBoxValues(A, ilower, iupper, 5,
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/hypre/2.26.0/include/_hypre_struct_mv.h:1513:11: note: candidate function not viable: no known conversion from 'int[2]' to 'HYPRE_Int *' (aka 'long long *') for 2nd argument
+HYPRE_Int HYPRE_StructMatrixSetBoxValues ( HYPRE_StructMatrix matrix, HYPRE_Int *ilower,
+          ^
+
+--------------------------------------------------------------------------------
+
+demo_mpi.cpp:1335:10: error: no matching function for call to 'HYPRE_StructMatrixSetBoxValues'
+         HYPRE_StructMatrixSetBoxValues(A, bc_ilower, bc_iupper, nentries,
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/hypre/2.26.0/include/_hypre_struct_mv.h:1513:11: note: candidate function not viable: no known conversion from 'int[2]' to 'HYPRE_Int *' (aka 'long long *') for 2nd argument
+HYPRE_Int HYPRE_StructMatrixSetBoxValues ( HYPRE_StructMatrix matrix, HYPRE_Int *ilower,
+          ^
+
+--------------------------------------------------------------------------------
+
+demo_mpi.cpp:1342:10: error: no matching function for call to 'HYPRE_StructVectorSetBoxValues'
+         HYPRE_StructVectorSetBoxValues(b, bc_ilower, bc_iupper, bvalues);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/hypre/2.26.0/include/_hypre_struct_mv.h:1553:11: note: candidate function not viable: no known conversion from 'int[2]' to 'HYPRE_Int *' (aka 'long long *') for 2nd argument
+HYPRE_Int HYPRE_StructVectorSetBoxValues ( HYPRE_StructVector vector, HYPRE_Int *ilower,
+          ^
+
+--------------------------------------------------------------------------------
+
+demo_mpi.cpp:1355:10: error: no matching function for call to 'HYPRE_StructMatrixSetBoxValues'
+         HYPRE_StructMatrixSetBoxValues(A, bc_ilower, bc_iupper, nentries,
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/hypre/2.26.0/include/_hypre_struct_mv.h:1513:11: note: candidate function not viable: no known conversion from 'int[2]' to 'HYPRE_Int *' (aka 'long long *') for 2nd argument
+HYPRE_Int HYPRE_StructMatrixSetBoxValues ( HYPRE_StructMatrix matrix, HYPRE_Int *ilower,
+          ^
+
+--------------------------------------------------------------------------------
+
+demo_mpi.cpp:1362:10: error: no matching function for call to 'HYPRE_StructVectorSetBoxValues'
+         HYPRE_StructVectorSetBoxValues(b, bc_ilower, bc_iupper, bvalues);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/hypre/2.26.0/include/_hypre_struct_mv.h:1553:11: note: candidate function not viable: no known conversion from 'int[2]' to 'HYPRE_Int *' (aka 'long long *') for 2nd argument
+HYPRE_Int HYPRE_StructVectorSetBoxValues ( HYPRE_StructVector vector, HYPRE_Int *ilower,
+          ^
+
+--------------------------------------------------------------------------------
+
+demo_mpi.cpp:1389:10: error: no matching function for call to 'HYPRE_StructMatrixSetBoxValues'
+         HYPRE_StructMatrixSetBoxValues(A, bc_ilower, bc_iupper, 1,
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/hypre/2.26.0/include/_hypre_struct_mv.h:1513:11: note: candidate function not viable: no known conversion from 'int[2]' to 'HYPRE_Int *' (aka 'long long *') for 2nd argument
+HYPRE_Int HYPRE_StructMatrixSetBoxValues ( HYPRE_StructMatrix matrix, HYPRE_Int *ilower,
+          ^
+
+--------------------------------------------------------------------------------
+
+demo_mpi.cpp:1400:10: error: no matching function for call to 'HYPRE_StructVectorAddToBoxValues'
+         HYPRE_StructVectorAddToBoxValues(b, bc_ilower, bc_iupper, bvalues);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/hypre/2.26.0/include/_hypre_struct_mv.h:1557:11: note: candidate function not viable: no known conversion from 'int[2]' to 'HYPRE_Int *' (aka 'long long *') for 2nd argument
+HYPRE_Int HYPRE_StructVectorAddToBoxValues ( HYPRE_StructVector vector, HYPRE_Int *ilower,
+          ^
+
+--------------------------------------------------------------------------------
+
+demo_mpi.cpp:1418:10: error: no matching function for call to 'HYPRE_StructMatrixSetBoxValues'
+         HYPRE_StructMatrixSetBoxValues(A, bc_ilower, bc_iupper, 1,
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/hypre/2.26.0/include/_hypre_struct_mv.h:1513:11: note: candidate function not viable: no known conversion from 'int[2]' to 'HYPRE_Int *' (aka 'long long *') for 2nd argument
+HYPRE_Int HYPRE_StructMatrixSetBoxValues ( HYPRE_StructMatrix matrix, HYPRE_Int *ilower,
+          ^
+
+--------------------------------------------------------------------------------
+
+demo_mpi.cpp:1429:10: error: no matching function for call to 'HYPRE_StructVectorAddToBoxValues'
+         HYPRE_StructVectorAddToBoxValues(b, bc_ilower, bc_iupper, bvalues);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/hypre/2.26.0/include/_hypre_struct_mv.h:1557:11: note: candidate function not viable: no known conversion from 'int[2]' to 'HYPRE_Int *' (aka 'long long *') for 2nd argument
+HYPRE_Int HYPRE_StructVectorAddToBoxValues ( HYPRE_StructVector vector, HYPRE_Int *ilower,
+          ^
+
+--------------------------------------------------------------------------------
+
+demo_mpi.cpp:1491:4: error: no matching function for call to 'HYPRE_StructSMGGetNumIterations'
+          HYPRE_StructSMGGetNumIterations(solver, &num_iterations);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./HYPRE_struct_ls.h:434:11: note: candidate function not viable: no known conversion from 'int *' to 'HYPRE_Int *' (aka 'long long *') for 2nd argument
+HYPRE_Int HYPRE_StructSMGGetNumIterations(HYPRE_StructSolver  solver,
+          ^
+
+--------------------------------------------------------------------------------
+
+demo_mpi.cpp:1516:4: error: no matching function for call to 'HYPRE_StructPFMGGetNumIterations'
+          HYPRE_StructPFMGGetNumIterations(solver, &num_iterations);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./HYPRE_struct_ls.h:317:11: note: candidate function not viable: no known conversion from 'int *' to 'HYPRE_Int *' (aka 'long long *') for 2nd argument
+HYPRE_Int HYPRE_StructPFMGGetNumIterations(HYPRE_StructSolver  solver,
+          ^
+
+--------------------------------------------------------------------------------
+
+demo_mpi.cpp:1599:4: error: no matching function for call to 'HYPRE_StructPCGGetNumIterations'
+          HYPRE_StructPCGGetNumIterations( solver, &num_iterations );
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./HYPRE_struct_ls.h:503:11: note: candidate function not viable: no known conversion from 'int *' to 'HYPRE_Int *' (aka 'long long *') for 2nd argument
+HYPRE_Int HYPRE_StructPCGGetNumIterations(HYPRE_StructSolver  solver,
+          ^
+
+--------------------------------------------------------------------------------
+
+demo_mpi.cpp:1704:4: error: no matching function for call to 'HYPRE_StructGMRESGetNumIterations'
+          HYPRE_StructGMRESGetNumIterations(solver, &num_iterations);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./HYPRE_struct_ls.h:586:11: note: candidate function not viable: no known conversion from 'int *' to 'HYPRE_Int *' (aka 'long long *') for 2nd argument
+HYPRE_Int HYPRE_StructGMRESGetNumIterations(HYPRE_StructSolver  solver,
+          ^
+
+--------------------------------------------------------------------------------
+
+demo_mpi.cpp:1798:4: error: no matching function for call to 'HYPRE_StructBiCGSTABGetNumIterations'
+          HYPRE_StructBiCGSTABGetNumIterations( solver, &num_iterations );
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./HYPRE_struct_ls.h:785:11: note: candidate function not viable: no known conversion from 'int *' to 'HYPRE_Int *' (aka 'long long *') for 2nd argument
+HYPRE_Int HYPRE_StructBiCGSTABGetNumIterations(HYPRE_StructSolver  solver,
+          ^
+
+--------------------------------------------------------------------------------
+
+demo_mpi.cpp:1874:2: error: no matching function for call to 'HYPRE_StructVectorGetBoxValues'
+        HYPRE_StructVectorGetBoxValues(x, ilower, iupper, values);
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/hypre/2.26.0/include/_hypre_struct_mv.h:1562:11: note: candidate function not viable: no known conversion from 'int[2]' to 'HYPRE_Int *' (aka 'long long *') for 2nd argument
+HYPRE_Int HYPRE_StructVectorGetBoxValues ( HYPRE_StructVector vector, HYPRE_Int *ilower,
+          ^
+
+--------------------------------------------------------------------------------
+
+demo_mpi.cpp:1887:2: error: no matching function for call to 'HYPRE_StructVectorGetBoxValues'
+        HYPRE_StructVectorGetBoxValues(x, bc_ilower, bc_iupper, sendbuf);
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/hypre/2.26.0/include/_hypre_struct_mv.h:1562:11: note: candidate function not viable: no known conversion from 'int[2]' to 'HYPRE_Int *' (aka 'long long *') for 2nd argument
+HYPRE_Int HYPRE_StructVectorGetBoxValues ( HYPRE_StructVector vector, HYPRE_Int *ilower,
+          ^
+
+--------------------------------------------------------------------------------
+
+demo_mpi.cpp:1896:2: error: no matching function for call to 'HYPRE_StructVectorGetBoxValues'
+        HYPRE_StructVectorGetBoxValues(x, bc_ilower, bc_iupper, sendbuf);
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/hypre/2.26.0/include/_hypre_struct_mv.h:1562:11: note: candidate function not viable: no known conversion from 'int[2]' to 'HYPRE_Int *' (aka 'long long *') for 2nd argument
+HYPRE_Int HYPRE_StructVectorGetBoxValues ( HYPRE_StructVector vector, HYPRE_Int *ilower,
+          ^
+
+--------------------------------------------------------------------------------
+
+demo_mpi.cpp:1905:2: error: no matching function for call to 'HYPRE_StructVectorGetBoxValues'
+        HYPRE_StructVectorGetBoxValues(x, bc_ilower, bc_iupper, sendbuf);
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/hypre/2.26.0/include/_hypre_struct_mv.h:1562:11: note: candidate function not viable: no known conversion from 'int[2]' to 'HYPRE_Int *' (aka 'long long *') for 2nd argument
+HYPRE_Int HYPRE_StructVectorGetBoxValues ( HYPRE_StructVector vector, HYPRE_Int *ilower,
+          ^
+
+--------------------------------------------------------------------------------
+
+demo_mpi.cpp:1916:2: error: no matching function for call to 'HYPRE_StructVectorGetBoxValues'
+        HYPRE_StructVectorGetBoxValues(x, bc_ilower, bc_iupper, sendbuf);
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/hypre/2.26.0/include/_hypre_struct_mv.h:1562:11: note: candidate function not viable: no known conversion from 'int[2]' to 'HYPRE_Int *' (aka 'long long *') for 2nd argument
+HYPRE_Int HYPRE_StructVectorGetBoxValues ( HYPRE_StructVector vector, HYPRE_Int *ilower,
+          ^
+
+--------------------------------------------------------------------------------
+
+demo_mpi.cpp:2080:6: error: no matching function for call to 'HYPRE_StructVectorSetBoxValues'
+            HYPRE_StructVectorSetBoxValues(x, ilower, iupper, values);
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/hypre/2.26.0/include/_hypre_struct_mv.h:1553:11: note: candidate function not viable: no known conversion from 'int[2]' to 'HYPRE_Int *' (aka 'long long *') for 2nd argument
+HYPRE_Int HYPRE_StructVectorSetBoxValues ( HYPRE_StructVector vector, HYPRE_Int *ilower,
+          ^
+
+--------------------------------------------------------------------------------
+
+25 errors generated.
