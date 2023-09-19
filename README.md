@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/666365140.svg)](https://zenodo.org/badge/latestdoi/666365140)
+
 Disclaimer
 ----------
 
