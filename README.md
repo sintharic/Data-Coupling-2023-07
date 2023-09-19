@@ -28,7 +28,7 @@ Using a package manager is recommended to install FFTW3, e.g. `sudo apt-get inst
 If you install FFTW in a non-standard location, you might need to change the corresponding path variables in the `Makefile`.
 
 The code in `SRC-Reynolds` requires (an outdated version of) the `Hypre` package and is compiled on the command line by typing `./compileCurrent.sh`, generating the executable `currentCalc.x`.
-Note that this is a very poor solution and will almost certainly require some tinkering to work on your machine.
+Note that this is not a cross-platform solution and will almost certainly require some tinkering to work on your machine.
 
 
 
@@ -53,4 +53,4 @@ Caveats
 
 Unfortunately, the behavior of the random number generator (RNG) in C++ is not standardized but implementation-specific. 
 Therefore, even using the same RNG seed, the rough surface your machine generates might be different from the one that was generated for the publication.
-Therefore, the original rough surface file `friction/rough/konfig0E.zip` ist included.
+Therefore, the original rough surface file `friction/rough/konfig0E.zip` is included.
