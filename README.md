@@ -1,20 +1,20 @@
 [![DOI](https://zenodo.org/badge/666365140.svg)](https://zenodo.org/badge/latestdoi/666365140)
 
+Info
+----
+
+This repository is supplementary to the paper published in [Physical Review Letters](https://doi.org/10.1103/PhysRevLett.131.156201).
+Due to file size constraints, NO RAW DATA IS INCLUDED. 
+Instead, the repository contains all necessary input files to repeat the simulations.
+
+
+
 Disclaimer
 ----------
 
 This repository was created for the sole purpose of archiving research data in a way that makes all numerical procedures and evaluations reproducible.
 This means that the provided source codes do not meet the usual standards of a proper software release and that some advanced technical know-how is required to use them at all. 
 I will not provide technical support beyond this README file, mostly because parts of the C++ code base (e.g. the entirety of `SRC-Reynolds`) were not written by me.
-
-
-
-Info
-----
-
-Due to file size constraints, NO RAW DATA IS INCLUDED. 
-Instead, the repository contains all necessary input files to repeat the simulations.
-Once the corresponding scientific paper has been published, I will update the plot scripts and add the DOI here. 
 
 
 
@@ -25,12 +25,15 @@ The contained Python scripts use well-known packages included in all Scientific 
 Apart from that, they make use of a few functions contained in my publically available contact mechanics utilities repository named `cmutils`:
 https://github.com/sintharic/cmutils (make sure you also read the `README.md` there!)
 
-The code in `SRC-GFMD` requires a working installation of FFTW3 and is compiled on the command line by typing `make`, generating the executable `contMech.exe`.
+The code in `SRC-GFMD` requires a working installation of the GNU C++ compiler (`g++`) and FFTW3. 
+It is compiled on the command line by typing `make`, generating the executable `contMech.exe`.
 Using a package manager is recommended to install FFTW3, e.g. `sudo apt-get install libfftw3-dev` on Debian-based Linux distros. 
 If you install FFTW in a non-standard location, you might need to change the corresponding path variables in the `Makefile`.
 
 The code in `SRC-Reynolds` requires (an outdated version of) the `Hypre` package and is compiled on the command line by typing `./compileCurrent.sh`, generating the executable `currentCalc.x`.
 Note that this is not a cross-platform solution and will almost certainly require some tinkering to work on your machine.
+
+Furthermore, the `analysis` directory contains a file `readGap.cpp`, which needs to be compiled using `g++ -O3 readGap.cpp -o readGap.exe`.
 
 
 
